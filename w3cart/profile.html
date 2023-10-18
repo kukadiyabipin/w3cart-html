@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <!-- Title -->
+	<title>Profile</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui, viewport-fit=cover">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.bootstrap-touchspin.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+  
+	<!-- CUSTOM CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+    <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900;1000&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+
+	<!-- FAVICON ICON -->
+	<link rel="shortcut icon" type="image/x-icon" href="">
+
+</head>   
+<body>
+
+<div class="page-wrapper">
+    
+	<!-- LOADER -->
+	<div id="preloader">
+		<div class="loader">
+			<div class="load-circle">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+    <!-- LOADER -->
+	
+	<!-- HEADER MENU -->
+	<header class="header shadow _header-fixed border-0">
+		<div class="container">
+			<div class="navbar navbar-expand-lg">
+				<!-- TOGGLE ICON -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- TOP LOGO -->
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" class="img-fluid" alt="#"></a>
+
+				<!-- PROFILE MENU FOR MOBILE -->
+				<div class="dropdown mobile-proifle">
+					<a href="index.html" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+						<img src="assets/images/1.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end">
+						<li><a class="dropdown-item" href="#">Settings</a></li>
+						<li><a class="dropdown-item" href="product-detail.html">Profile</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="login.html">Sign out</a></li>
+					</ul>
+				</div>
+
+				<!-- MENU LIST -->
+				<div class="collapse navbar-collapse" id="navbarScroll">
+					<ul class="navbar-nav m-auto my-2 my-lg-0"">
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="#">MENU</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">MENU</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">MENU</a></li>
+								<li><a class="dropdown-item" href="#">MENU</a></li>
+								<li><a class="dropdown-item" href="#">MENU</a></li>
+								<li><a class="dropdown-item" href="#">MENU</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
+					</ul>
+					<form class="col-12 w-25 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+						<input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+					</form>
+					<div class="dropdown profile-desktop">
+						<a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="assets/images/1.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+						</a>
+						<ul class="dropdown-menu dropdown-menu-end">
+							<li><a class="dropdown-item" href="#">Settings</a></li>
+							<li><a class="dropdown-item" href="profile.html">Profile</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="login.html">Sign out</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<!-- CONTENT -->
+	<div class="page-content space-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-8 m-auto">
+					<div class="profile-area">
+						<div class="main-profile mb-4">
+							<div class="media media-100 me-3 rounded-circle">
+								<img src="assets/images/user-profile.jpg" alt="profile-image">
+							</div>
+							<div class="profile-detail">
+								<h5 class="name">Thomas Djono</h5>
+								<span class="font-12">ID 02123141</span>
+								<p><i class="icon feather icon-map-pin"></i> 1317 Raoul Wallenberg Place, Norwalk Connecticut - 06854</p>
+								<h6><i class="icon feather icon-dollar-sign"></i>Bal - $1500</h6>
+							</div>
+							<a href="#" data-bs-toggle="modal" data-bs-target="#edit-profile" class="edit-profile">
+								<i class="icon feather icon-edit-2"></i>
+							</a>
+						</div>
+
+						<div class="title-bar">
+							<h6 class="title mb-0 font-w700">History Settings</h6>
+						</div>
+						<div class="dz-list style-1 mb-5">
+							<ul>
+								<li>
+									<a href="order.html" class="item-content item-link">
+										<div class="dz-icon">
+											<i class="icon feather icon-box"></i>
+										</div>
+										<div class="dz-inner">
+											<span class="title">Order</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="wallet.html" class="item-content item-link">
+										<div class="dz-icon">
+											<i class="icon feather icon-dollar-sign"></i>
+										</div>
+										<div class="dz-inner">
+											<span class="title">Wallet</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+						
+						<div class="title-bar">
+							<h6 class="title mb-0 font-w700">Account Settings</h6>
+						</div>
+						<div class="dz-list style-1 mb-5">
+							<ul>
+								<li>
+									<a href="#" data-bs-toggle="modal" data-bs-target="#edit-profile" class="item-content item-link">
+										<div class="dz-icon">
+											<i class="icon feather icon-user"></i>
+										</div>
+										<div class="dz-inner">
+											<span class="title">Edit Profile</span>
+										</div>
+									</a>
+								</li>
+								<li>
+									<a href="checkout.html"   class="item-content item-link">
+										<div class="dz-icon">
+											<i class="icon feather icon-map-pin"></i>
+										</div>
+										<div class="dz-inner">
+											<span class="title">Saved Addresses</span>
+										</div>
+									</a>
+								</li>
+								
+								<li>
+									<a href="login.html" class="item-content item-link">
+										<div class="dz-icon">
+											<i class="icon feather icon-log-out"></i>
+										</div>
+										<div class="dz-inner">
+											<span class="title">Log Out</span>
+										</div>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="title-bar">
+							<h6 class="title mb-0 font-w700">Code Referral Now!</h6>
+						</div>
+
+						<div>
+							<div class="mb-3 input-group input-group-icon">
+								<input type="text" id="#" class="form-control" placeholder="X15XSDERDSC">
+								<span class="input-group-text p-0"> 
+									<a href="#" class="btn btn-primary"> Share Now</a>
+								</span> 
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			
+		</div>
+	</div>
+	<!-- CONTENT END -->
+	
+	<!-- FIXED MENU -->
+	<div class="menubar-area footer-fixed rounded-0">
+		<div class="toolbar-inner menubar-nav">
+			<a href="index.html" class="nav-link">
+				<i class="icon feather icon-home"></i>
+				<span>Home</span>
+			</a>
+			<a href="#" class="nav-link">
+				<i class="icon feather icon-grid"></i>
+				<span>Categories</span>
+			</a>
+			<a href="cart.html" class="nav-link cart-handle">
+				<div class="hexad-menu">
+					<img src="assets/images/menu-shape-dark.svg" class="shape-dark" alt="">
+					<i class="icon feather icon-shopping-bag"></i>
+				</div>
+			</a>
+			<a href="#" class="nav-link">
+				<i class="icon feather icon-heart"></i>
+				<span>Wishlist</span>
+			</a>
+			<a href="profile.html" class="nav-link active">
+				<i class="icon feather icon-user"></i>
+				<span>Profile</span>
+			</a>
+		</div>
+	</div>
+	<!-- FIXED MENU -->
+	
+</div>
+
+
+<!-- EDIT PROFILE -->
+<div class="modal fade" id="edit-profile">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Edit Profile</h5>
+				<button class="btn-close" data-bs-dismiss="modal">
+					<i class="fa-solid fa-xmark"></i>
+				</button>
+			</div>
+			<div class="modal-body pb-0">
+				<div class="mb-3">
+					<label class="form-label" for="phone">Mobile Number</label>
+					<input type="tel" id="phone" class="form-control" value="0123456789">
+				</div>
+				<div class="mb-3">
+					<label class="form-label" for="name">Full Name</label>
+					<input type="text" id="name" class="form-control" value="John Doe">
+				</div>
+				<div class="mb-3">
+					<label class="form-label" for="email">Email</label>
+					<input type="email" id="email" class="form-control" value="Example@gmail.com">
+				</div>
+				<div class="mb-3">
+					<label class="form-label" for="address">Location</label>
+					<input type="text" id="address" class="form-control" value="LH-12, East Wally USA">
+				</div>
+			</div>
+			<div class="modal-footer m-auto">
+				<button type="button" class="btn btn-sm btn-primary">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- JS FILE -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery.bootstrap-touchspin.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/dz.carousel.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>

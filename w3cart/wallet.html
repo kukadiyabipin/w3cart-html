@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <!-- Title -->
+	<title>Wallet</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui, viewport-fit=cover">
+	<meta name="author" content="">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<!-- BOOTSTRAP CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.bootstrap-touchspin.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
+  
+	<!-- CUSTOM CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+    <!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;200;300;400;500;600;700;800;900;1000&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet">
+
+	<!-- FAVICON ICON -->
+	<link rel="shortcut icon" type="image/x-icon" href="#">
+
+</head>   
+<body>
+
+<div class="page-wrapper">
+    
+	<!-- LOADER -->
+	<div id="preloader">
+		<div class="loader">
+			<div class="load-circle">
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+	</div>
+    <!-- LOADER -->
+	
+	<!-- HEADER MENU -->
+	<header class="header shadow _header-fixed border-0">
+		<div class="container">
+			<div class="navbar navbar-expand-lg">
+				<!-- TOGGLE ICON -->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- TOP LOGO -->
+				<a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg" class="img-fluid" alt="#"></a>
+
+				<!-- PROFILE MENU FOR MOBILE -->
+				<div class="dropdown mobile-proifle">
+					<a href="index.html" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+						<img src="assets/images/1.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+					</a>
+					<ul class="dropdown-menu dropdown-menu-end">
+						<li><a class="dropdown-item" href="#">Settings</a></li>
+						<li><a class="dropdown-item" href="product-detail.html">Profile</a></li>
+						<li><hr class="dropdown-divider"></li>
+						<li><a class="dropdown-item" href="login.html">Sign out</a></li>
+					</ul>
+				</div>
+
+				<!-- MENU LIST -->
+				<div class="collapse navbar-collapse" id="navbarScroll">
+					<ul class="navbar-nav m-auto my-2 my-lg-0"">
+						<li class="nav-item"><a class="nav-link active" aria-current="page" href="#">MENU</a></li>
+						<li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">MENU</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">MENU</a></li>
+								<li><a class="dropdown-item" href="#">MENU</a></li>
+								<li><a class="dropdown-item" href="#">MENU</a></li>
+								<li><a class="dropdown-item" href="#">MENU</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="#">MENU</a></li>
+					</ul>
+					<form class="col-12 w-25 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+						<input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+					</form>
+					<div class="dropdown profile-desktop">
+						<a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="assets/images/1.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+						</a>
+						<ul class="dropdown-menu dropdown-menu-end">
+							<li><a class="dropdown-item" href="#">Settings</a></li>
+							<li><a class="dropdown-item" href="profile.html">Profile</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="login.html">Sign out</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<!-- CONTENT -->
+	<div class="page-content space-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-12 m-auto">
+					<div class="profile-area">
+						<div class="main-profile mb-4">
+							<div class="media media-100 me-3 rounded-circle">
+								<img src="assets/images/user-profile.jpg" alt="profile-image">
+							</div>
+							<div class="profile-detail">
+								<h5 class="name">Thomas Djono</h5>
+								<span class="font-12">ID 02123141</span>
+								<p><i class="icon feather icon-map-pin"></i> 1317 Raoul Wallenberg Place, Norwalk Connecticut - 06854</p>
+								<h6><i class="icon feather icon-dollar-sign"></i>Bal - $1500</h6>
+							</div>
+							<a href="#" data-bs-toggle="modal" data-bs-target="#edit-profile" class="edit-profile">
+								<a href="javascript:void(0);" class="btn btn-sm btn-success light" data-bs-toggle="modal" data-bs-target="#add-balance"><i class="icon feather icon-dollar-sign"></i> Add Balance</a>
+							</a>
+						</div>
+
+						<div class="title-bar">
+							<h6 class="title mb-0 font-w700">History Wallet</h6>
+						</div>
+						<div class="dz-order">
+							<div class="order-info">
+								<div class="pe-2">
+									<h6 class="title">Transfer to an ecternal card</h6>
+									<span class="productId">Today 10:00</span>
+								</div>
+								<div class="status">
+									<h6>$500</h6>
+									<a href="javascript:void(0);" class="btn btn-sm btn-success light">Completed</a>
+								</div>
+							</div>
+						</div>
+						<div class="dz-order">
+							<div class="order-info">
+								<div class="pe-2">
+									<h6 class="title">Transfer to an ecternal card</h6>
+									<span class="productId">Today 10:00</span>
+								</div>
+								<div class="status">
+									<h6>$500</h6>
+									<a href="javascript:void(0);" class="btn btn-sm btn-danger light">Canceled</a>
+								</div>
+							</div>
+						</div>
+						<div class="dz-order">
+							<div class="order-info">
+								<div class="pe-2">
+									<h6 class="title">Transfer to an ecternal card</h6>
+									<span class="productId">Today 10:00</span>
+								</div>
+								<div class="status">
+									<h6>$500</h6>
+									<a href="javascript:void(0);" class="btn btn-sm btn-info light">On Progress</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- CONTENT END -->
+	
+	<!-- FIXED MENU -->
+	<div class="menubar-area footer-fixed rounded-0">
+		<div class="toolbar-inner menubar-nav">
+			<a href="#" class="nav-link">
+				<i class="icon feather icon-home"></i>
+				<span>Home</span>
+			</a>
+			<a href="#" class="nav-link">
+				<i class="icon feather icon-grid"></i>
+				<span>Categories</span>
+			</a>
+			<a href="#" class="nav-link cart-handle">
+				<div class="hexad-menu">
+					<img src="assets/images/menu-shape-dark.svg" class="shape-dark" alt="">
+					<i class="icon feather icon-shopping-bag"></i>
+				</div>
+			</a>
+			<a href="#" class="nav-link">
+				<i class="icon feather icon-heart"></i>
+				<span>Wishlist</span>
+			</a>
+			<a href="#" class="nav-link active">
+				<i class="icon feather icon-user"></i>
+				<span>Profile</span>
+			</a>
+		</div>
+	</div>
+	<!-- FIXED MENU -->
+	
+</div>
+
+
+<!-- Add Card Modal -->
+<div class="modal fade" id="add-balance">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content rounded-0">
+			<div class="modal-header border-0 pb-0">
+				<h5 class="modal-title font-w700">ADD Balance</h5>
+				<button class="btn-close" data-bs-dismiss="modal">
+					<i class="fa-solid fa-xmark"></i>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Please ensure your card can be used for online transactions</p>
+				<div class="form">
+					<div class="form-item">
+						<label class="form-label" >Amount</label>
+						<input type="text" class="form-control"  autocomplete="off" required>
+					</div>
+					<div class="form-item">
+						<label class="form-label" >Card holder Name</label>
+						<input type="text" class="form-control"  autocomplete="off" required>
+					</div>
+					<div class="form-item">
+						<label class="form-label" >Card Number</label>
+						<input type="number" class="form-control"  autocomplete="off" placeholder="**** **** **** ****" required>
+					</div>
+					<div class="row gx-3">		
+						<div class="form-item col-6">
+							<label class="form-label" >Expiry Date</label>
+							<input type="date" class="form-control"  autocomplete="off" value="MM / YY" required>
+						</div>
+						<div class="form-item col-6">
+							<label class="form-label" >Security Code</label>
+							<input type="password" class="form-control"  autocomplete="off" placeholder="CVV" required>
+						</div>
+					</div>	
+				</div>
+				<a href="javascript:void(0);" class="btn btn-primary d-block" data-bs-dismiss="modal">Added</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Add Card Modal -->
+
+<!-- JS FILE -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/jquery.bootstrap-touchspin.min.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/dz.carousel.js"></script>
+<script src="assets/js/custom.js"></script>
+
+</body>
+</html>
